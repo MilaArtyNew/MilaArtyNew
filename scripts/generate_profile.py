@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import base64
 import calendar
 import json
 import os
@@ -105,23 +106,21 @@ def row(y: int, label: str, value: str, value_class: str = "value") -> str:
     ])
 
 
-def render_monogram() -> str:
-    # A lightweight abstract monogram instead of a personal photo: safer, cleaner, reusable.
-    glyphs = []
-    pattern = [
-        "███╗   ███╗██╗██╗      █████╗ ",
-        "████╗ ████║██║██║     ██╔══██╗",
-        "██╔████╔██║██║██║     ███████║",
-        "██║╚██╔╝██║██║██║     ██╔══██║",
-        "██║ ╚═╝ ██║██║███████╗██║  ██║",
-        "╚═╝     ╚═╝╚═╝╚══════╝╚═╝  ╚═╝",
-    ]
-    x0, y0 = 70, 210
-    for i, line in enumerate(pattern):
-        glyphs.append(text(x0, y0 + i * 34, line, "monoArt"))
-    glyphs.append(text(76, 454, "WEB3 OPERATOR", "monoLabel"))
-    glyphs.append(text(76, 482, "RISK · SYSTEMS · AUTOMATION", "monoSmall"))
-    return "\n".join(glyphs)
+def render_avatar() -> str:
+    avatar_path = ROOT / "assets" / "avatar.png"
+    encoded = base64.b64encode(avatar_path.read_bytes()).decode("ascii")
+    return f'''
+  <defs>
+    <clipPath id="avatarClip">
+      <rect x="42" y="112" width="364" height="400" rx="20"/>
+    </clipPath>
+  </defs>
+  <image x="42" y="112" width="364" height="400" preserveAspectRatio="xMidYMid slice" href="data:image/png;base64,{encoded}" clip-path="url(#avatarClip)"/>
+  <rect x="42" y="112" width="364" height="400" rx="20" fill="none" stroke="#38e8c5" stroke-opacity="0.38"/>
+  <rect x="42" y="438" width="364" height="74" rx="20" fill="#020409" opacity="0.42"/>
+  <text x="66" y="474" class="monoLabel">WEB3 OPERATOR</text>
+  <text x="66" y="498" class="monoSmall">RISK · SYSTEMS · AUTOMATION</text>
+'''
 
 
 def render_svg(stats: dict[str, str]) -> str:
@@ -199,8 +198,7 @@ def render_svg(stats: dict[str, str]) -> str:
   <line x1="448" y1="42" x2="448" y2="724" stroke="#263143" stroke-opacity="0.82"/>
   <text x="54" y="60" class="eyebrow">IDENTITY / WEB3 SIGNAL</text>
   <text x="54" y="91" class="hero">Mila Arty</text>
-  <rect x="42" y="112" width="364" height="400" rx="20" fill="#04100f" fill-opacity="0.74" stroke="#38e8c5" stroke-opacity="0.30"/>
-  {render_monogram()}
+  {render_avatar()}
   <text x="54" y="638" class="section">— OPERATOR SIGNAL</text>
   <text x="54" y="670" class="micro">MODE  ANALYZE / BUILD / AUTOMATE</text>
   <text x="54" y="694" class="micro">LENS  RISK FIRST · MECHANICS FIRST</text>
