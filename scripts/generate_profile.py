@@ -32,7 +32,7 @@ SELECTED_REPOS = [
 def request_json(path: str, token: str | None) -> Any:
     headers = {
         "Accept": "application/vnd.github+json",
-        "User-Agent": "milanewgpt-profile-readme",
+        "User-Agent": "MilaArtyNew-profile-readme",
         "X-GitHub-Api-Version": "2022-11-28",
     }
     if token:
