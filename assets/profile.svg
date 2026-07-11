@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Mila — Web3 operator profile</title>
+  <desc id="desc">Terminal-style GitHub profile card with public focus areas, links, and GitHub statistics.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#04060b"/>
+      <stop offset="0.50" stop-color="#08101a"/>
+      <stop offset="1" stop-color="#0b0712"/>
+    </linearGradient>
+    <radialGradient id="cyanGlow" cx="0.18" cy="0.55" r="0.54">
+      <stop offset="0" stop-color="#20e3c2" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#20e3c2" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="goldGlow" cx="0.92" cy="0.05" r="0.62">
+      <stop offset="0" stop-color="#ffb454" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#ffb454" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+      .eyebrow { font-size: 12px; fill: #8894a8; letter-spacing: 2px; font-weight: 700; }
+      .hero { font-size: 26px; fill: #f6f8ff; font-weight: 800; letter-spacing: -0.6px; }
+      .key { font-size: 14px; fill: #ffb454; font-weight: 700; }
+      .dots { font-size: 14px; fill: #273247; letter-spacing: 1.5px; }
+      .value { font-size: 14px; fill: #cdd8e8; }
+      .accent { font-size: 14px; fill: #64f0d2; }
+      .section { font-size: 12px; fill: #8d98aa; letter-spacing: 1.6px; font-weight: 700; }
+      .statBox { fill: #0d1522; stroke: #29364c; stroke-opacity: 0.85; }
+      .statLabel { font-size: 10px; fill: #8390a5; letter-spacing: 1px; font-weight: 700; }
+      .statValue { font-size: 18px; fill: #f0f5ff; font-weight: 800; }
+      .micro { font-size: 10px; fill: #76849a; letter-spacing: 0.7px; }
+      .monoArt { font-size: 19px; fill: #79ffe1; font-weight: 800; }
+      .monoLabel { font-size: 20px; fill: #f6f8ff; font-weight: 800; letter-spacing: 2px; }
+      .monoSmall { font-size: 12px; fill: #ffcf8a; letter-spacing: 1.4px; font-weight: 700; }
+    </style>
+  </defs>
+  <rect width="1200" height="760" rx="26" fill="#020409"/>
+  <rect x="5" y="5" width="1190" height="750" rx="22" fill="url(#bg)" stroke="#202b3b"/>
+  <rect x="6" y="6" width="1188" height="748" rx="21" fill="url(#cyanGlow)"/>
+  <rect x="6" y="6" width="1188" height="748" rx="21" fill="url(#goldGlow)"/>
+  <line x1="448" y1="42" x2="448" y2="724" stroke="#263143" stroke-opacity="0.82"/>
+  <text x="54" y="60" class="eyebrow">IDENTITY / WEB3 SIGNAL</text>
+  <text x="54" y="91" class="hero">Mila Arty</text>
+  <rect x="42" y="112" width="364" height="400" rx="20" fill="#04100f" fill-opacity="0.74" stroke="#38e8c5" stroke-opacity="0.30"/>
+  <text x="70" y="210" class="monoArt" text-anchor="start">███╗   ███╗██╗██╗      █████╗ </text>
+<text x="70" y="244" class="monoArt" text-anchor="start">████╗ ████║██║██║     ██╔══██╗</text>
+<text x="70" y="278" class="monoArt" text-anchor="start">██╔████╔██║██║██║     ███████║</text>
+<text x="70" y="312" class="monoArt" text-anchor="start">██║╚██╔╝██║██║██║     ██╔══██║</text>
+<text x="70" y="346" class="monoArt" text-anchor="start">██║ ╚═╝ ██║██║███████╗██║  ██║</text>
+<text x="70" y="380" class="monoArt" text-anchor="start">╚═╝     ╚═╝╚═╝╚══════╝╚═╝  ╚═╝</text>
+<text x="76" y="454" class="monoLabel" text-anchor="start">WEB3 OPERATOR</text>
+<text x="76" y="482" class="monoSmall" text-anchor="start">RISK · SYSTEMS · AUTOMATION</text>
+  <text x="54" y="638" class="section">— OPERATOR SIGNAL</text>
+  <text x="54" y="670" class="micro">MODE  ANALYZE / BUILD / AUTOMATE</text>
+  <text x="54" y="694" class="micro">LENS  RISK FIRST · MECHANICS FIRST</text>
+  <text x="54" y="722" class="micro">PUBLIC PROFILE · NO PRIVATE RUNTIME DATA</text>
+  <text x="488" y="60" class="eyebrow" text-anchor="start">PROFILE / OPERATOR OVERVIEW</text><text x="488" y="92" class="hero" text-anchor="start">Mila / Liudmila</text><text x="488" y="136" class="key" text-anchor="start">Mode</text>
+<text x="700" y="136" class="dots" text-anchor="start">········</text>
+<text x="786" y="136" class="accent" text-anchor="start">Web3 operator · finance brain</text><text x="488" y="170" class="key" text-anchor="start">Uptime</text>
+<text x="700" y="170" class="dots" text-anchor="start">········</text>
+<text x="786" y="170" class="accent" text-anchor="start">0y 4m 25d on GitHub</text><text x="488" y="204" class="key" text-anchor="start">Focus</text>
+<text x="700" y="204" class="dots" text-anchor="start">········</text>
+<text x="786" y="204" class="value" text-anchor="start">DeFi · prediction markets · onchain</text><text x="488" y="238" class="key" text-anchor="start">Edge</text>
+<text x="700" y="238" class="dots" text-anchor="start">········</text>
+<text x="786" y="238" class="value" text-anchor="start">risk-first systems, not hype</text><text x="488" y="272" class="key" text-anchor="start">Runtime</text>
+<text x="700" y="272" class="dots" text-anchor="start">········</text>
+<text x="786" y="272" class="value" text-anchor="start">Telegram bots · alerts · automation</text><text x="488" y="316" class="section" text-anchor="start">— BUILD SURFACE</text><text x="488" y="354" class="key" text-anchor="start">Languages.Code</text>
+<text x="700" y="354" class="dots" text-anchor="start">········</text>
+<text x="786" y="354" class="accent" text-anchor="start">Python</text><text x="488" y="388" class="key" text-anchor="start">Languages.Real</text>
+<text x="700" y="388" class="dots" text-anchor="start">········</text>
+<text x="786" y="388" class="value" text-anchor="start">Russian · English · Hebrew</text><text x="488" y="422" class="key" text-anchor="start">Systems</text>
+<text x="700" y="422" class="dots" text-anchor="start">········</text>
+<text x="786" y="422" class="value" text-anchor="start">funding · LP ranges · digests · trackers</text><text x="488" y="456" class="key" text-anchor="start">Building</text>
+<text x="700" y="456" class="dots" text-anchor="start">········</text>
+<text x="786" y="456" class="value" text-anchor="start">semi-passive Web3 workflows</text><text x="488" y="500" class="section" text-anchor="start">— CONTACT</text><text x="488" y="538" class="key" text-anchor="start">GitHub</text>
+<text x="700" y="538" class="dots" text-anchor="start">········</text>
+<text x="786" y="538" class="accent" text-anchor="start">github.com/milanewgpt</text><text x="488" y="572" class="key" text-anchor="start">X</text>
+<text x="700" y="572" class="dots" text-anchor="start">········</text>
+<text x="786" y="572" class="value" text-anchor="start">@mila_arty</text><text x="488" y="606" class="key" text-anchor="start">Signal</text>
+<text x="700" y="606" class="dots" text-anchor="start">········</text>
+<text x="786" y="606" class="accent" text-anchor="start">mechanics before narrative</text><text x="488" y="652" class="section" text-anchor="start">— GITHUB SIGNAL</text>
+  <rect x="488" y="672" width="148" height="56" rx="12" class="statBox"/><text x="502" y="692" class="statLabel" text-anchor="start">PUBLIC REPOS</text><text x="502" y="716" class="statValue" text-anchor="start">19</text><rect x="650" y="672" width="148" height="56" rx="12" class="statBox"/><text x="664" y="692" class="statLabel" text-anchor="start">ORIGINAL</text><text x="664" y="716" class="statValue" text-anchor="start">19</text><rect x="812" y="672" width="148" height="56" rx="12" class="statBox"/><text x="826" y="692" class="statLabel" text-anchor="start">STARS</text><text x="826" y="716" class="statValue" text-anchor="start">1</text><rect x="974" y="672" width="148" height="56" rx="12" class="statBox"/><text x="988" y="692" class="statLabel" text-anchor="start">SYSTEMS</text><text x="988" y="716" class="statValue" text-anchor="start">5</text>
+  <text x="1138" y="740" class="micro" text-anchor="end">UPDATED 2026-07-11</text>
+</svg>
