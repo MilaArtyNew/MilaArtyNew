@@ -17,7 +17,7 @@ from pathlib import Path
 from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
-USERNAME = "milanewgpt"
+USERNAME = "MilaArtyNew"
 API = "https://api.github.com"
 
 SELECTED_REPOS = [
@@ -138,7 +138,7 @@ def render_svg(stats: dict[str, str]) -> str:
         row(422, "Systems", "funding · LP ranges · digests · trackers"),
         row(456, "Building", "semi-passive Web3 workflows"),
         text(488, 500, "— CONTACT", "section"),
-        row(538, "GitHub", "github.com/milanewgpt", "accent"),
+        row(538, "GitHub", "github.com/MilaArtyNew", "accent"),
         row(572, "X", "@mila_arty"),
         row(606, "Signal", "mechanics before narrative", "accent"),
         text(488, 652, "— GITHUB SIGNAL", "section"),
