@@ -126,7 +126,7 @@ def render_avatar() -> str:
 def render_svg(stats: dict[str, str]) -> str:
     sections = [
         text(488, 60, "PROFILE / OPERATOR OVERVIEW", "eyebrow"),
-        text(488, 92, "Mila / Liudmila", "hero"),
+        text(488, 92, "Mila Arty", "hero"),
         row(136, "Mode", "Web3 operator · finance brain", "accent"),
         row(170, "Uptime", stats["uptime"], "accent"),
         row(204, "Focus", "DeFi · prediction markets · onchain"),
