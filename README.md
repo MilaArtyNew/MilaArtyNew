@@ -1,10 +1,12 @@
 # Milaartynew
 
-A utility project maintained in this GitHub account.
+GitHub profile repository for the MilaArtyNew account. It presents public-facing profile content, selected projects, and profile assets rather than running an application service.
 
 ## Features
 
-- Test or validation scripts are included.
+- Maintains the GitHub profile README and related assets.
+- Links or summarizes selected Web3, automation, and content projects.
+- Keeps setup/config notes minimal because this is a profile repository.
 
 ## Architecture
 
