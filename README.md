@@ -1,22 +1,59 @@
-<div align="center">
-  <img src="./assets/profile.svg" width="100%" alt="Mila — Web3 operator profile" />
-</div>
+# Milaartynew
 
-<div align="center">
-  <a href="https://github.com/MilaArtyNew">GitHub</a> ·
-  <a href="https://x.com/mila_arty">X</a> ·
-  <a href="https://github.com/MilaArtyNew/carrypilot">CarryPilot</a> ·
-  <a href="https://github.com/MilaArtyNew/x-web3-digest">X Web3 Digest</a>
-</div>
+A utility project maintained in this GitHub account.
 
-<br />
+## Features
 
-### Selected systems
+- Test or validation scripts are included.
 
-- [`carrypilot`](https://github.com/MilaArtyNew/carrypilot) — semi-automated funding-rate arbitrage assistant.
-- [`x-web3-digest`](https://github.com/MilaArtyNew/x-web3-digest) — X/Twitter Web3 digest via Bird/SocialData and Telegram delivery.
-- [`funding-alerts-bot`](https://github.com/MilaArtyNew/funding-alerts-bot) — funding-rate and market-structure alerts for crypto futures.
-- [`lp-tracker`](https://github.com/MilaArtyNew/lp-tracker) — DeFi liquidity position tracking and LP range ladders.
-- [`polymarket-tracker`](https://github.com/MilaArtyNew/polymarket-tracker) — Polymarket event monitoring via Telegram.
+## Architecture
 
-<sub>Profile card is generated from public GitHub data only. No private repositories, keys, or runtime data are included.</sub>
+- **Repository:** `MilaArtyNew/MilaArtyNew`
+- **Primary stack:** Python
+
+## Configuration
+
+No environment variables were detected automatically. If the project uses secrets, document them here with placeholder names only.
+
+## Setup
+
+```bash
+git clone https://github.com/MilaArtyNew/MilaArtyNew
+cd MilaArtyNew
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -U pip
+```
+
+## Running Locally
+
+```bash
+python main.py
+```
+
+## Deployment Notes
+
+- Keep secrets in the deployment platform environment variables, not in Git.
+- Use the default branch as the source of truth for deployments.
+- Check logs after every deployment and verify the `/status` or health endpoint when available.
+- If the project uses a scheduler, verify timezone assumptions and idempotency before enabling it in production.
+
+## Operational Notes
+
+- Review logs after startup for missing environment variables or API authentication errors.
+- Keep command names in English and document every user-facing command in this README.
+- For Telegram bots, `/help` should list the same commands documented here.
+- Inline buttons should edit the original message with the final status rather than sending duplicate messages.
+
+## Troubleshooting
+
+- **Bot does not respond:** verify the bot token, webhook/polling mode, and chat permissions.
+- **Missing data:** check API keys, rate limits, and upstream service status.
+- **Deployment starts but exits:** inspect platform logs for missing environment variables or import errors.
+- **Commands differ from README:** update the command list here and in the bot command menu at the same time.
+
+## Security
+
+- Never commit `.env` files, API keys, private keys, Telegram tokens, or session strings.
+- Use `.env.example` for placeholders only.
+- Rotate any credential that was accidentally committed.
