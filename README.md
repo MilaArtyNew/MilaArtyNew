@@ -1,4 +1,4 @@
-# Mila / Liudmila
+# Mila
 
 I design controlled workflows and practical automation for finance, admin, Web3, content, and small business operations.
 
