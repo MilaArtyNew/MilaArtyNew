@@ -1,61 +1,103 @@
-# Milaartynew
+# Mila / Liudmila
 
-GitHub profile repository for the MilaArtyNew account. It presents public-facing profile content, selected projects, and profile assets rather than running an application service.
+I design controlled workflows and practical automation for finance, admin, Web3, content, and small business operations.
 
-## Features
+My focus is not automation for the sake of automation. I build systems where routine work is automated, risk is visible, and the user keeps control.
 
-- Maintains the GitHub profile README and related assets.
-- Links or summarizes selected Web3, automation, and content projects.
-- Keeps setup/config notes minimal because this is a profile repository.
+## What I build
 
-## Architecture
+### 1. Telegram workflows
 
-- **Repository:** `MilaArtyNew/MilaArtyNew`
-- **Primary stack:** Python
+Clear Telegram bot flows that people can actually use:
 
-## Configuration
+- command menus and `/help`;
+- approval / skip flows;
+- pending input states;
+- filters and cooldowns;
+- clear status messages;
+- buttons that update the original message instead of creating noise.
 
-No environment variables were detected automatically. If the project uses secrets, document them here with placeholder names only.
+### 2. Personal efficiency systems
 
-## Setup
+Lightweight systems for personal and family operations:
 
-```bash
-git clone https://github.com/MilaArtyNew/MilaArtyNew
-cd MilaArtyNew
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -U pip
-```
+- dashboards;
+- planners;
+- family calendars;
+- household routines;
+- reminders;
+- simple finance/admin views;
+- bottleneck detection before automation.
 
-## Running Locally
+### 3. Web3 automation
 
-```bash
-python main.py
-```
+Risk-aware Web3 workflows with monitoring and human control:
 
-## Deployment Notes
+- trading strategy workflows;
+- funding and carry monitoring;
+- alerts;
+- check-ins;
+- risk filters;
+- semi-passive monitoring systems.
 
-- Keep secrets in the deployment platform environment variables, not in Git.
-- Use the default branch as the source of truth for deployments.
-- Check logs after every deployment and verify the `/status` or health endpoint when available.
-- If the project uses a scheduler, verify timezone assumptions and idempotency before enabling it in production.
+No hype. No “guaranteed alpha”. The goal is to make signals, risks, and next actions easier to see.
 
-## Operational Notes
+### 4. Digests and social media operations
 
-- Review logs after startup for missing environment variables or API authentication errors.
-- Keep command names in English and document every user-facing command in this README.
-- For Telegram bots, `/help` should list the same commands documented here.
-- Inline buttons should edit the original message with the final status rather than sending duplicate messages.
+Information workflows that reduce noise:
 
-## Troubleshooting
+- source collection;
+- digest generation;
+- signal/noise filtering;
+- content drafts;
+- human approval before posting;
+- X / Telegram / Web3 research pipelines.
 
-- **Bot does not respond:** verify the bot token, webhook/polling mode, and chat permissions.
-- **Missing data:** check API keys, rate limits, and upstream service status.
-- **Deployment starts but exits:** inspect platform logs for missing environment variables or import errors.
-- **Commands differ from README:** update the command list here and in the bot command menu at the same time.
+### 5. Approval processes for small business
 
-## Security
+Human-in-the-loop workflows for actions that should not happen automatically:
 
-- Never commit `.env` files, API keys, private keys, Telegram tokens, or session strings.
-- Use `.env.example` for placeholders only.
-- Rotate any credential that was accidentally committed.
+- expenses;
+- documents;
+- publishing;
+- operational decisions;
+- client/admin requests;
+- “approve before action” processes.
+
+## Current commercial focus
+
+I am packaging practical AI-agent skills and workflow templates around:
+
+- Telegram bot UX;
+- approval workflows;
+- low-noise alerts and data digests;
+- personal / family admin dashboards;
+- Web3 automation risk review;
+- social and digest workflows.
+
+## Selected proof-of-work
+
+- Telegram bots and approval flows
+- Web3 monitoring and funding workflows
+- Social/content digest systems
+- Personal dashboards and family operation tools
+- Risk-first trading and automation experiments
+
+## Links
+
+- X: [@mila_arty](https://x.com/mila_arty)
+- GitHub: [MilaArtyNew](https://github.com/MilaArtyNew)
+- Agensi skills: coming soon / updating
+- Portfolio site: coming soon
+
+## Operating principles
+
+- Automate routine work, not judgment.
+- Keep the user in control for risky actions.
+- Prefer simple, low-maintenance systems.
+- Reduce noise before it reaches Telegram or dashboards.
+- Make risks and bottlenecks visible before optimizing.
+
+---
+
+Public profile. No private runtime data, credentials, or internal paths are published here.
