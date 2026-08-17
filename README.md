@@ -1,6 +1,6 @@
 # Mila
 
-I design controlled workflows and practical automation for finance, admin, Web3, content, and small business operations.
+I build controlled workflows and practical automation for finance, admin, Web3, content, and small business operations.
 
 My focus is not automation for the sake of automation. I build systems where routine work is automated, risk is visible, and the user keeps control.
 
@@ -64,32 +64,6 @@ Human-in-the-loop workflows for actions that should not happen automatically:
 - client/admin requests;
 - “approve before action” processes.
 
-## Current commercial focus
-
-I am packaging practical AI-agent skills and workflow templates around:
-
-- Telegram bot UX;
-- approval workflows;
-- low-noise alerts and data digests;
-- personal / family admin dashboards;
-- Web3 automation risk review;
-- social and digest workflows.
-
-## Selected proof-of-work
-
-- Telegram bots and approval flows
-- Web3 monitoring and funding workflows
-- Social/content digest systems
-- Personal dashboards and family operation tools
-- Risk-first trading and automation experiments
-
-## Links
-
-- X: [@mila_arty](https://x.com/mila_arty)
-- GitHub: [MilaArtyNew](https://github.com/MilaArtyNew)
-- Agensi skills: coming soon / updating
-- Portfolio site: coming soon
-
 ## Operating principles
 
 - Automate routine work, not judgment.
@@ -97,6 +71,34 @@ I am packaging practical AI-agent skills and workflow templates around:
 - Prefer simple, low-maintenance systems.
 - Reduce noise before it reaches Telegram or dashboards.
 - Make risks and bottlenecks visible before optimizing.
+
+## Selected proof of work
+
+- Telegram bots and approval flows
+- Web3 monitoring and funding workflows
+- Social/content digest systems
+- Personal dashboards and family operation tools
+- Risk-first trading and automation experiments
+
+## I can help with
+
+- Telegram bot UX and command flow
+- Approval workflows for risky or important actions
+- Low-noise alerts and data digests
+- Personal / family admin dashboards
+- Web3 automation risk review
+- Social and digest workflows
+- Small business approval processes
+
+If you have a workflow that is messy, noisy, or too manual — I can help map it, simplify it, and design a controlled automation layer around it.
+
+## Links
+
+- X: [@mila_arty](https://x.com/mila_arty)
+- GitHub: [MilaArtyNew](https://github.com/MilaArtyNew)
+- Telegram: [@mila_arty](https://t.me/mila_arty)
+- Agensi profile: [agensi.io/creators/mila](https://www.agensi.io/creators/mila)
+- Portfolio site: coming soon
 
 ---
 
