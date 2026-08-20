@@ -1,83 +1,82 @@
 # Mila
 
-I build controlled workflows and practical automation for finance, admin, Web3, content, and small business operations.
+Risk-aware automation systems for finance, admin, Web3, content, and small business operations.
 
 My focus is not automation for the sake of automation. I build systems where routine work is automated, risk is visible, and the user keeps control.
 
 ## What I build
 
-### 1. Telegram workflows
+### 1. Risk analysis
 
-Clear Telegram bot flows that people can actually use:
+Structured review of messy or high-risk workflows before automation:
 
-- command menus and `/help`;
-- approval / skip flows;
+- operational risk mapping;
+- trading and Web3 workflow review;
+- signal vs. noise separation;
+- downside / upside framing;
+- simple decision checklists;
+- “what can go wrong?” analysis.
+
+### 2. Approval workflows
+
+Human-in-the-loop flows for actions that should not happen silently:
+
+- Telegram approval / skip flows;
+- transaction and trading approvals;
+- publishing approvals;
+- expense / document / admin approvals;
 - pending input states;
-- filters and cooldowns;
-- clear status messages;
-- buttons that update the original message instead of creating noise.
+- clear final status after every button click.
 
-### 2. Personal efficiency systems
+### 3. Controlled automation
 
-Lightweight systems for personal and family operations:
+Automation systems where routine work is handled by the system, while control stays with the user:
 
+- Telegram bots;
 - dashboards;
-- planners;
-- family calendars;
-- household routines;
-- reminders;
-- simple finance/admin views;
-- bottleneck detection before automation.
+- lightweight schedulers;
+- semi-passive monitoring;
+- state tracking;
+- safe defaults and manual override points.
 
-### 3. Web3 automation
+### 4. Alerts, data & digests
 
-Risk-aware Web3 workflows with monitoring and human control:
-
-- trading strategy workflows;
-- funding and carry monitoring;
-- alerts;
-- check-ins;
-- risk filters;
-- semi-passive monitoring systems.
-
-No hype. No “guaranteed alpha”. The goal is to make signals, risks, and next actions easier to see.
-
-### 4. Digests and social media operations
-
-Information workflows that reduce noise:
+Low-noise information systems that surface what matters:
 
 - source collection;
-- digest generation;
-- signal/noise filtering;
-- content drafts;
-- human approval before posting;
-- X / Telegram / Web3 research pipelines.
+- alerts and monitoring;
+- Web3 / trading / market digests;
+- signal filtering;
+- research summaries;
+- Telegram delivery with context and next actions.
 
-### 5. Approval processes for small business
+### 5. Finance & admin bottlenecks
 
-Human-in-the-loop workflows for actions that should not happen automatically:
+Simple systems for repetitive finance, admin, and operational work:
 
-- expenses;
-- documents;
-- publishing;
-- operational decisions;
-- client/admin requests;
-- “approve before action” processes.
+- small business workflows;
+- family/admin dashboards;
+- finance tracking;
+- recurring operational tasks;
+- bottleneck detection;
+- simple structure before complex automation.
 
 ## Operating principles
 
+- Make risk visible before automating.
 - Automate routine work, not judgment.
-- Keep the user in control for risky actions.
+- Keep approvals for irreversible or high-risk actions.
 - Prefer simple, low-maintenance systems.
 - Reduce noise before it reaches Telegram or dashboards.
-- Make risks and bottlenecks visible before optimizing.
+- Design workflows that can survive interruptions.
 
 ## Selected proof of work
 
-- Telegram bots and approval flows
-- Web3 monitoring and funding workflows
-- Social/content digest systems
-- Personal dashboards and family operation tools
+- Telegram approval bots for trading, publishing, and admin flows
+- Web3 monitoring, funding, and risk-filtered alert systems
+- Digest pipelines for Telegram, X, and market research
+- Personal/family dashboards and admin workflow tools
+- Finance/admin bottleneck mapping and lightweight automation
 - Risk-first trading and automation experiments
 
 ## I can help with
